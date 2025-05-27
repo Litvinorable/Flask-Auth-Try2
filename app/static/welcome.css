@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  background: url("https://images.unsplash.com/photo-1462331940025-496dfbfc7564?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.main {
+  width: 60vw;
+  padding: 100px 0;
+  text-align: center;
+  margin: 20vh auto;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(123, 31, 162, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.name {
+  font-size: 300%;
+  font-family: 'Poppins', sans-serif;
+  color: #5e35b1;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.email {
+  font-size: 150%;
+  color: #7e57c2;
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type=submit] {
+  background: linear-gradient(45deg, #9c27b0, #7e57c2);
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(156, 39, 176, 0.3);
+}
+
+input[type=submit]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(156, 39, 176, 0.4);
+}

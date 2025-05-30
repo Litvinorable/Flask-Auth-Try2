@@ -8,7 +8,7 @@
 
 1. Клонируйте этот репозиторий на свой локальный компьютер.
     ```bash
-    git clone https://github.com/rituraj009/Flask-Firebase-Authentication
+    git clone https://github.com/Litvinorable/Flask-Auth-Try2
     ```
 
 2. Перейдите в каталог проекта.

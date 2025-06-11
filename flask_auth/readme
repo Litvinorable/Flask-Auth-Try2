@@ -1,1 +1,1 @@
-pip install flask flask_sqlalchemy flask_login werkzeug
+pip install flask flask_sqlalchemy flask_login werkzeug 

@@ -47,3 +47,11 @@ cd app
 python app.py
 ```
 
+Чтобы запустить второе приложение, перейдите в нужную папку 
+```bash
+cd .\flask_auth\flask2
+```
+А затем запустить на другом порту 
+```bash
+flask run -h localhost -p 5001
+```
